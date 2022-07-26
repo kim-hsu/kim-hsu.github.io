@@ -36,6 +36,24 @@ return restult;
 
 所需知識：位為運算（XOR）
 
+``` c
+int singleNumber(int* nums, int numsSize){
+    int n =nums[0];
+    for (int i=1;i<numsSize;i++){
+        n ^= nums[i];
+    }
+    return n;
+}
+
+```
+
+**XOR 知識補充**
+
+|  test   | false| true|
+|  ----  | ----  | --- |
+| false  |   X   |  O  |
+| true   |   O   |  X  |
+
 
 
 
