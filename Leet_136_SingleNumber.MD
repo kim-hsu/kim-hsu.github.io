@@ -14,7 +14,7 @@
 
 所需知識：for迴圈及基本常識
 ```C
-int singleNum( *int nums ,int arraySize){
+int singleNum(*int nums ,int arraySize){
 int i ,j ,counts,result ;
     for(i=0;i<arraySize;i++){
         counts=0;
